@@ -1,5 +1,12 @@
 {
-  "require": {
-    "php": "^8.1.0"
-  }
+    "require": {
+        "php": ">=5.4.0",
+        "silex/silex": "~1.0@dev"
+    },
+    "extra": {
+        "heroku": {
+            "document-root": "web",
+            "index-document": "index.php"
+        }
+    }
 }
